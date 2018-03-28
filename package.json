@@ -1,0 +1,25 @@
+{
+  "name": "@jwmb/problemsource",
+  "version": "0.0.4",
+  "description": "",
+  "main": "lib/",
+  "typings": "lib/",
+  "typescript": {
+    "definition": "lib/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "serve": "npm run build && http-server ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.7.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@jwmb/pixelmagic": ">=0.0.1"
+  }
+}

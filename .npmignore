@@ -1,0 +1,17 @@
+*
+#!dist/
+#!dist/*
+#!dist/**/*
+
+!definitions/
+!definitions/*
+!definitions/**/*
+definitions/spec/*
+
+!lib/*.js
+!lib/**/*.js
+!lib/**/*.d.ts
+lib/spec/**/*.js
+
+!package.json
+!*.md
